@@ -124,10 +124,50 @@ const pocketMoney = 500;
 
 if (broName == "Adil") {
   if (pocketMoney >= 500) {
-    console.log("Adil can buy burger.");
+    //console.log("Adil can buy burger.");
   } else {
-    console.log("Adil can not buy.");
+    //console.log("Adil can not buy.");
   }
 } else {
-  console.log("Not applicable for you.");
+  //console.log("Not applicable for you.");
 }
+
+//1
+// incident arc
+const zooName = "Safari Park";
+const feedTime = "Morning";
+const feed = "Afternoon";
+if (zooName == "Safari Park") {
+  if (feedTime >= "Morning") {
+    console.log("Food is served in the morning.");
+  } else {
+    console.log(
+      "If the morning feeding time is missed, they are fed in the afternoon."
+    );
+  }
+}
+
+//2
+//burger inciudent arc
+const riverName = "Shitalakha";
+const Boat = "500 kg";
+
+if (riverName == "Shitalakha") {
+  if (Boat >= "500 kg") {
+    console.log("Cross the river safely.");
+  } else {
+    console.log("Can not cross the river safely.");
+  }
+}
+
+//3
+//strings and template literals
+/*const myPara = `Hi,I am Abir
+Im from Sirajgonj`;
+console.log(myPara);*/
+
+const personName = "Abir";
+const myHobby = "Reading, Writing and Traveling";
+const Words = `Hi my name is ${personName} and my favorite hobby is ${myHobby} .`;
+
+console.log(Words);
